@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黄守煊 | 职业经理人 / 总经理助理</title>
+    <meta name="description" content="10年复合型管理背景，深耕高管决策支持、行政运营管控、商务公关与风险合规领域">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': {
+                            900: '#0a1628',
+                            800: '#0f2140',
+                            700: '#162d54',
+                            600: '#1e3a6e',
+                        },
+                        'gold': {
+                            400: '#c9a962',
+                            500: '#b8944d',
+                            600: '#a07d3a',
+                        },
+                        'slate': {
+                            850: '#1a2332',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Noto Sans SC', 'system-ui', 'sans-serif'],
+                        'serif': ['Noto Serif SC', 'Georgia', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0a1628;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #c9a962;
+            border-radius: 3px;
+        }
+        
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes countUp {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+        
+        .animate-slide-in-left {
+            animation: slideInLeft 0.8s ease-out forwards;
+        }
+        
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        .delay-400 { animation-delay: 0.4s; }
+        .delay-500 { animation-delay: 0.5s; }
+        
+        /* Hero Background */
+        .hero-bg {
+            background: linear-gradient(135deg, #0a1628 0%, #162d54 50%, #0f2140 100%);
+            position: relative;
+        }
+        
+        .hero-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9a962' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+        
+        /* Gold Line */
+        .gold-line {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, #c9a962, #e8d5a3);
+        }
+        
+        /* Card Hover */
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+        
+        /* Timeline */
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 12px;
+            height: 12px;
+            background: #c9a962;
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px rgba(201, 169, 98, 0.2);
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 24px;
+            width: 2px;
+            height: calc(100% - 16px);
+            background: linear-gradient(to bottom, #c9a962, rgba(201, 169, 98, 0.1));
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        
+        /* Stat Counter */
+        .stat-number {
+            font-variant-numeric: tabular-nums;
+        }
+        
+        /* Section Divider */
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(201, 169, 98, 0.3), transparent);
+        }
+        
+        /* Navigation */
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: #c9a962;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        /* Skill Tag */
+        .skill-tag {
+            background: linear-gradient(135deg, rgba(201, 169, 98, 0.1), rgba(201, 169, 98, 0.05));
+            border: 1px solid rgba(201, 169, 98, 0.3);
+        }
+        
+        /* Portfolio Card */
+        .portfolio-card {
+            background: linear-gradient(145deg, #162d54, #0f2140);
+            border: 1px solid rgba(201, 169, 98, 0.15);
+        }
+        
+        /* Floating Elements */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .float-element {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+        
+        /* Visible Animation Trigger */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+        
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-navy-900 text-gray-100 font-sans">
+    
+    <!-- Fixed Navigation -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <a href="#hero" class="text-xl font-semibold tracking-wider">
+                    <span class="text-gold-400">黄守煊</span>
+                    <span class="text-gray-400 text-sm ml-2">HSX</span>
+                </a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">关于我</a>
+                    <a href="#abilities" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">核心能力</a>
+                    <a href="#experience" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">工作经历</a>
+                    <a href="#achievements" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">关键成果</a>
+                    <a href="#portfolio" class="nav-link text-sm text-gray-300 hover:text-white transition-colors">作品集</a>
+                    <a href="#contact" class="px-4 py-2 bg-gold-400/10 border border-gold-400/30 text-gold-400 text-sm hover:bg-gold-400/20 transition-all">联系方式</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="md:hidden text-gray-300 hover:text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-64 h-full bg-navy-800 z-50 p-8">
+        <button id="closeMenuBtn" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </button>
+        <div class="flex flex-col space-y-6 mt-12">
+            <a href="#about" class="text-gray-300 hover:text-gold-400 transition-colors">关于我</a>
+            <a href="#abilities" class="text-gray-300 hover:text-gold-400 transition-colors">核心能力</a>
+            <a href="#experience" class="text-gray-300 hover:text-gold-400 transition-colors">工作经历</a>
+            <a href="#achievements" class="text-gray-300 hover:text-gold-400 transition-colors">关键成果</a>
+            <a href="#portfolio" class="text-gray-300 hover:text-gold-400 transition-colors">作品集</a>
+            <a href="#contact" class="text-gold-400">联系方式</a>
+        </div>
+    </div>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero-bg min-h-screen flex items-center relative overflow-hidden">
+        <!-- Decorative Elements -->
+        <div class="absolute top-20 right-20 w-96 h-96 border border-gold-400/10 rounded-full float-element opacity-30"></div>
+        <div class="absolute bottom-20 left-10 w-64 h-64 border border-gold-400/5 rounded-full float-element opacity-20" style="animation-delay: -3s;"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 py-32 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <!-- Left Content -->
+                <div class="space-y-8">
+                    <!-- Tag -->
+                    <div class="inline-flex items-center space-x-2 bg-gold-400/10 border border-gold-400/20 px-4 py-2 animate-fade-in">
+                        <span class="w-2 h-2 bg-gold-400 rounded-full animate-pulse"></span>
+                        <span class="text-gold-400 text-sm">正在求职</span>
+                    </div>
+                    
+                    <!-- Title -->
+                    <div class="space-y-4">
+                        <h1 class="text-5xl lg:text-6xl font-bold text-white animate-fade-in-up">
+                            黄守煊
+                        </h1>
+                        <div class="h-px w-20 gold-line animate-fade-in-up delay-100"></div>
+                        <p class="text-xl lg:text-2xl text-gray-300 font-light animate-fade-in-up delay-200">
+                            职业经理人 <span class="text-gold-400">/</span> 总经理助理
+                        </p>
+                    </div>
+                    
+                    <!-- Subtitle -->
+                    <p class="text-lg text-gray-400 leading-relaxed animate-fade-in-up delay-300">
+                        从设计出身，成长为懂业务、懂表达、<br>
+                        懂协调、懂落地的复合型管理人才。
+                    </p>
+                    
+                    <!-- CTA -->
+                    <div class="flex flex-wrap gap-4 animate-fade-in-up delay-400">
+                        <a href="#contact" class="px-8 py-4 bg-gold-400 text-navy-900 font-medium hover:bg-gold-500 transition-all">
+                            获取联系方式
+                        </a>
+                        <a href="#about" class="px-8 py-4 border border-gray-600 text-gray-300 hover:border-gold-400 hover:text-gold-400 transition-all">
+                            了解更多
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Right Stats -->
+                <div class="grid grid-cols-2 gap-6 animate-fade-in delay-300">
+                    <div class="bg-navy-800/50 backdrop-blur-sm border border-gold-400/10 p-8 card-hover">
+                        <div class="text-4xl lg:text-5xl font-bold text-gold-400 stat-number" data-target="10">0</div>
+                        <div class="text-sm text-gray-400 mt-2">年复合型<br>管理背景</div>
+                    </div>
+                    <div class="bg-navy-800/50 backdrop-blur-sm border border-gold-400/10 p-8 card-hover">
+                        <div class="text-4xl lg:text-5xl font-bold text-gold-400 stat-number" data-target="50">0</div>
+                        <div class="text-sm text-gray-400 mt-2">项核心决议<br>100%落地</div>
+                    </div>
+                    <div class="bg-navy-800/50 backdrop-blur-sm border border-gold-400/10 p-8 card-hover">
+                        <div class="text-4xl lg:text-5xl font-bold text-gold-400 stat-number" data-target="280">0</div>
+                        <div class="text-sm text-gray-400 mt-2">万元直播<br>成交业绩</div>
+                    </div>
+                    <div class="bg-navy-800/50 backdrop-blur-sm border border-gold-400/10 p-8 card-hover">
+                        <div class="text-4xl lg:text-5xl font-bold text-gold-400 stat-number" data-target="20">0</div>
+                        <div class="text-sm text-gray-400 mt-2">场专项会议<br>全程保障</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-navy-900 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <!-- Left -->
+                <div class="reveal">
+                    <span class="text-gold-400 text-sm tracking-widest uppercase">About</span>
+                    <h2 class="text-3xl lg:text-4xl font-bold text-white mt-4 mb-6">精准承接 · 高效推进 · 结果交付</h2>
+                    <div class="gold-line mb-8"></div>
+                    
+                    <div class="space-y-6 text-gray-400 leading-relaxed">
+                        <p>
+                            10年复合型管理背景，深耕高管决策支持、行政运营管控、商务公关与风险合规领域，具备能源基建、珠宝金融、大宗贸易、地产营销等多行业实战经验。
+                        </p>
+                        <p>
+                            既能做好高管日常事务与决策落地的全链路保障，也能为企业经营与业务拓展提供深度价值支持。
+                        </p>
+                    </div>
+                    
+                    <!-- Keywords -->
+                    <div class="flex flex-wrap gap-3 mt-8">
+                        <span class="skill-tag px-4 py-2 text-sm text-gold-400 rounded">承接高管意图</span>
+                        <span class="skill-tag px-4 py-2 text-sm text-gold-400 rounded">推进到底</span>
+                        <span class="skill-tag px-4 py-2 text-sm text-gold-400 rounded">交付成果</span>
+                        <span class="skill-tag px-4 py-2 text-sm text-gold-400 rounded">跨行业适配</span>
+                    </div>
+                </div>
+                
+                <!-- Right - Value Cards -->
+                <div class="space-y-6 reveal">
+                    <div class="bg-navy-800/50 border border-gold-400/10 p-6 card-hover">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gold-400/10 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-semibold mb-2">全链路高管支持</h3>
+                                <p class="text-gray-400 text-sm">统筹日程管理、会务组织、决议督办、公文起草，实现"决策-执行-反馈-闭环"全流程管控</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-navy-800/50 border border-gold-400/10 p-6 card-hover">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gold-400/10 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-semibold mb-2">经营分析支持</h3>
+                                <p class="text-gray-400 text-sm">独立完成经营数据收集、经营分析报告编制、年度专项工作梳理与节点管控</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-navy-800/50 border border-gold-400/10 p-6 card-hover">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gold-400/10 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-semibold mb-2">商务公关能力</h3>
+                                <p class="text-gray-400 text-sm">独立对接政府职能部门、高规格商务谈判，重大突发事件与风险公关处理经验丰富</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-navy-800/50 border border-gold-400/10 p-6 card-hover">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gold-400/10 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-white font-semibold mb-2">合规风控意识</h3>
+                                <p class="text-gray-400 text-sm">实现法务风控前置，从源头规避经营风险，确保企业在安全轨道上高速运行</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="section-divider"></div>
+    
+    <!-- Core Abilities Section -->
+    <section id="abilities" class="py-24 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <span class="text-gold-400 text-sm tracking-widest uppercase">Core Abilities</span>
+                <h2 class="text-3xl lg:text-4xl font-bold text-white mt-4 mb-6">核心能力</h2>
+                <div class="gold-line mx-auto mb-8"></div>
+                <p class="text-gray-400 max-w-2xl mx-auto">全方位的高管支持能力，覆盖经营管理的各个环节</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Ability 1 -->
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 border border-gold-400/10 p-8 card-hover reveal">
+                    <div class="w-16 h-16 bg-gold-400/10 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">高管日程与决议督办</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">统筹高管日程规划、会议组织、决策事项分解与落地追踪，确保战略精准执行</p>
+                </div>
+                
+                <!-- Ability 2 -->
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 border border-gold-400/10 p-8 card-hover reveal">
+                    <div class="w-16 h-16 bg-gold-400/10 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">经营分析与材料撰写</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">独立完成经营数据分析、月度季度报告、战略合作可行性研究等公文起草</p>
+                </div>
+                
+                <!-- Ability 3 -->
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 border border-gold-400/10 p-8 card-hover reveal">
+                    <div class="w-16 h-16 bg-gold-400/10 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">商务接待与政府对接</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">重要客户接待、高规格商务谈判、政府职能部门对接，维护企业利益与品牌形象</p>
+                </div>
+                
+                <!-- Ability 4 -->
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 border border-gold-400/10 p-8 card-hover reveal">
+                    <div class="w-16 h-16 bg-gold-400/10 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">危机公关</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">独立处理重大经营风险事件、客户安抚、法务资料整理与危机公关全流程</p>
+                </div>
+                
+                <!-- Ability 5 -->
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 border border-gold-400/10 p-8 card-hover reveal">
+                    <div class="w-16 h-16 bg-gold-400/10 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">项目统筹</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">跨组织协调、多方资源整合、项目全流程管控，确保复杂项目高效落地</p>
+                </div>
+                
+                <!-- Ability 6 -->
+                <div class="bg-gradient-to-br from-navy-800 to-navy-900 border border-gold-400/10 p-8 card-hover reveal">
+                    <div class="w-16 h-16 bg-gold-400/10 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">制度搭建</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">从零搭建管理体系、制定标准化流程、完善考核方案，填补组织管理空白</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="section-divider"></div>
+    
+    <!-- Experience Timeline -->
+    <section id="experience" class="py-24 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <span class="text-gold-400 text-sm tracking-widest uppercase">Career Path</span>
+                <h2 class="text-3xl lg:text-4xl font-bold text-white mt-4 mb-6">职业经历</h2>
+                <div class="gold-line mx-auto mb-8"></div>
+                <p class="text-gray-400 max-w-2xl mx-auto">从设计出身，成长为懂业务、懂表达、懂协调、懂落地的复合型管理人才</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <!-- Timeline -->
+                <div class="relative pl-8">
+                    <!-- Item 1 -->
+                    <div class="timeline-item relative pb-12 reveal">
+                        <div class="bg-navy-800/50 border border-gold-400/10 p-8 ml-6 card-hover">
+                            <div class="flex flex-wrap items-center gap-4 mb-4">
+                                <span class="text-gold-400 font-semibold">2015 — 2021</span>
+                                <span class="px-3 py-1 bg-gold-400/10 text-gold-400 text-sm">设计起步</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">资深设计师 / 品牌主管</h3>
+                            <p class="text-gold-500 text-sm mb-4">品牌设计与地产营销类企业</p>
+                            <div class="space-y-2 text-gray-400 text-sm">
+                                <p>• 为多家地产及互联网企业搭建完整品牌VI视觉体系</p>
+                                <p>• 负责企业各类营销活动全案设计与落地执行</p>
+                                <p>• 精通商业数据可视化呈现与高品质PPT汇报材料</p>
+                                <p>• 累计完成100+份企业高层汇报、对外商业提案</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 2 -->
+                    <div class="timeline-item relative pb-12 reveal">
+                        <div class="bg-navy-800/50 border border-gold-400/10 p-8 ml-6 card-hover">
+                            <div class="flex flex-wrap items-center gap-4 mb-4">
+                                <span class="text-gold-400 font-semibold">2021 — 2024</span>
+                                <span class="px-3 py-1 bg-gold-400/10 text-gold-400 text-sm">角色升级</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">总经理助理 / 分公司负责人</h3>
+                            <p class="text-gold-500 text-sm mb-4">中御集团（浙江）有限公司</p>
+                            <div class="space-y-2 text-gray-400 text-sm">
+                                <p>• 全面统筹总经理日程管理、会议组织与决议督办</p>
+                                <p>• 累计跟进50+项核心经营决议，落地完成率100%</p>
+                                <p>• 从零筹备组建四川达州分公司，搭建6人核心团队</p>
+                                <p>• 代表公司对接政府与合作伙伴，助力B2B大宗贸易落地</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 3 -->
+                    <div class="timeline-item relative reveal">
+                        <div class="bg-navy-800/50 border border-gold-400/10 p-8 ml-6 card-hover">
+                            <div class="flex flex-wrap items-center gap-4 mb-4">
+                                <span class="text-gold-400 font-semibold">2024 — 2026</span>
+                                <span class="px-3 py-1 bg-gold-400/10 text-gold-400 text-sm">持续深耕</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">营销支持主管 / 安全综合管理</h3>
+                            <p class="text-gold-500 text-sm mb-4">福建可观珠宝 → 华电（古田）抽水蓄能</p>
+                            <div class="space-y-2 text-gray-400 text-sm">
+                                <p>• 主导直播业务转型，单场本地生活直播实现280万销售额</p>
+                                <p>• 完成10+场高规格商务接待，助力核心渠道合作落地</p>
+                                <p>• 完成20+场专项会议全流程保障，推动10+项核心决议落地</p>
+                                <p>• 统筹项目经营与安全管理数据，撰写10+份专项分析报告</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="section-divider"></div>
+    
+    <!-- Key Achievements -->
+    <section id="achievements" class="py-24 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <span class="text-gold-400 text-sm tracking-widest uppercase">Key Results</span>
+                <h2 class="text-3xl lg:text-4xl font-bold text-white mt-4 mb-6">关键成果</h2>
+                <div class="gold-line mx-auto mb-8"></div>
+                <p class="text-gray-400 max-w-2xl mx-auto">每一项数据背后，都是对"结果导向"的践行</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Achievement 1 -->
+                <div class="portfolio-card p-8 card-hover reveal">
+                    <div class="text-5xl font-bold text-gold-400 mb-4">50+</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">核心经营决议</h3>
+                    <p class="text-gray-400 text-sm">统筹总经理办公会、经营分析会等核心会议，跟进决议事项督办，落地完成率100%</p>
+                </div>
+                
+                <!-- Achievement 2 -->
+                <div class="portfolio-card p-8 card-hover reveal">
+                    <div class="text-5xl font-bold text-gold-400 mb-4">100%</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">决议落地完成率</h3>
+                    <p class="text-gray-400 text-sm">确保集团战略精准落地，解决跨组织执行追踪与运营效率问题</p>
+                </div>
+                
+                <!-- Achievement 3 -->
+                <div class="portfolio-card p-8 card-hover reveal">
+                    <div class="text-5xl font-bold text-gold-400 mb-4">6人</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">从零搭建团队</h3>
+                    <p class="text-gray-400 text-sm">从零筹备组建四川达州分公司，搭建6人核心运营团队，填补西南区域战略空白</p>
+                </div>
+                
+                <!-- Achievement 4 -->
+                <div class="portfolio-card p-8 card-hover reveal">
+                    <div class="text-5xl font-bold text-gold-400 mb-4">280万</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">直播成交业绩</h3>
+                    <p class="text-gray-400 text-sm">临危受命主导直播业务转型，完成新业务从0到1的突破</p>
+                </div>
+                
+                <!-- Achievement 5 -->
+                <div class="portfolio-card p-8 card-hover reveal">
+                    <div class="text-5xl font-bold text-gold-400 mb-4">20+</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">专项会议保障</h3>
+                    <p class="text-gray-400 text-sm">统筹项目部核心会议组织筹备、议程规划、会议纪要撰写</p>
+                </div>
+                
+                <!-- Achievement 6 -->
+                <div class="portfolio-card p-8 card-hover reveal">
+                    <div class="text-5xl font-bold text-gold-400 mb-4">18月</div>
+                    <h3 class="text-lg font-semibold text-white mb-2">业绩连续提升</h3>
+                    <p class="text-gray-400 text-sm">助力同期销售业绩连续提升18个月，显著提升团队专业度与成单转化率</p>
+                </div>
+            </div>
+            
+            <!-- Additional Stats -->
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 reveal">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-gold-400">10+</div>
+                    <div class="text-gray-400 text-sm mt-2">专项总结与分析报告</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-gold-400">100+</div>
+                    <div class="text-gray-400 text-sm mt-2">份高层汇报材料</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-gold-400">10+</div>
+                    <div class="text-gray-400 text-sm mt-2">场全员培训</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-gold-400">100+</div>
+                    <div class="text-gray-400 text-sm mt-2">培训覆盖人次</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="section-divider"></div>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-24 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <span class="text-gold-400 text-sm tracking-widest uppercase">Portfolio</span>
+                <h2 class="text-3xl lg:text-4xl font-bold text-white mt-4 mb-6">作品集</h2>
+                <div class="gold-line mx-auto mb-8"></div>
+                <p class="text-gray-400 max-w-2xl mx-auto">设计出身的独特优势：专业视觉表达 + 商业思维落地</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio 1 -->
+                <div class="group portfolio-card overflow-hidden card-hover reveal">
+                    <div class="aspect-video bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center relative">
+                        <div class="w-20 h-20 bg-gold-400/10 rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                            </svg>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-white mb-2">品牌视觉体系</h3>
+                        <p class="text-gray-400 text-sm">为企业搭建完整的VI视觉体系，制定统一的对内对外视觉输出规范，提升品牌专业形象与市场辨识度</p>
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">品牌VI</span>
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">视觉规范</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio 2 -->
+                <div class="group portfolio-card overflow-hidden card-hover reveal">
+                    <div class="aspect-video bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center relative">
+                        <div class="w-20 h-20 bg-gold-400/10 rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+                            </svg>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-white mb-2">营销物料全案</h3>
+                        <p class="text-gray-400 text-sm">负责企业各类营销活动的全案设计与落地执行，覆盖平面创意、三维视觉呈现全流程</p>
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">平面设计</span>
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">三维视觉</span>
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">活动落地</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio 3 -->
+                <div class="group portfolio-card overflow-hidden card-hover reveal">
+                    <div class="aspect-video bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center relative">
+                        <div class="w-20 h-20 bg-gold-400/10 rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/>
+                            </svg>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-white mb-2">PPT汇报材料</h3>
+                        <p class="text-gray-400 text-sm">将复杂的经营数据、战略报告转化为高可视化图表与高品质汇报材料，提升决策沟通效率</p>
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">数据可视化</span>
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">商业提案</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio 4 -->
+                <div class="group portfolio-card overflow-hidden card-hover reveal">
+                    <div class="aspect-video bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center relative">
+                        <div class="w-20 h-20 bg-gold-400/10 rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-white mb-2">直播业务转型</h3>
+                        <p class="text-gray-400 text-sm">独立完成从策划到交付的全链路工作，单场本地生活直播实现280万元销售额突破</p>
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">直播策划</span>
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">280万GMV</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio 5 -->
+                <div class="group portfolio-card overflow-hidden card-hover reveal">
+                    <div class="aspect-video bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center relative">
+                        <div class="w-20 h-20 bg-gold-400/10 rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                            </svg>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-white mb-2">培训体系建设</h3>
+                        <p class="text-gray-400 text-sm">搭建系统化培训体系，制定双月新人培训、月度精英进阶培训计划，开发全套可视化培训课件</p>
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">培训课件</span>
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">可视化</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio 6 -->
+                <div class="group portfolio-card overflow-hidden card-hover reveal">
+                    <div class="aspect-video bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center relative">
+                        <div class="w-20 h-20 bg-gold-400/10 rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-white mb-2">公文与制度</h3>
+                        <p class="text-gray-400 text-sm">从零建立标准化公文与档案管理体系，起草公司年度纲领性文件，制定分公司管理制度</p>
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">公文撰写</span>
+                            <span class="px-2 py-1 bg-gold-400/10 text-gold-400 text-xs">制度搭建</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="section-divider"></div>
+    
+    <!-- Skills & Certifications -->
+    <section id="skills" class="py-24 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <span class="text-gold-400 text-sm tracking-widest uppercase">Skills</span>
+                <h2 class="text-3xl lg:text-4xl font-bold text-white mt-4 mb-6">证书与技能</h2>
+                <div class="gold-line mx-auto mb-8"></div>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Certifications -->
+                <div class="reveal">
+                    <h3 class="text-xl font-semibold text-white mb-8">专业证书</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gold-400/10 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-medium">心理咨询师</h4>
+                                <p class="text-gray-400 text-sm">2026年</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gold-400/10 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-medium">高级档案管理员</h4>
+                                <p class="text-gray-400 text-sm">2025年</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gold-400/10 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-medium">C1驾驶证</h4>
+                                <p class="text-gray-400 text-sm">可接受出差驻外</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Software Skills -->
+                <div class="reveal">
+                    <h3 class="text-xl font-semibold text-white mb-8">软件技能</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <span class="text-white">MS Office (Word/Excel/PPT)</span>
+                                <span class="text-gold-400">精通</span>
+                            </div>
+                            <div class="h-2 bg-navy-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <span class="text-white">Adobe PS/AI/C4D</span>
+                                <span class="text-gold-400">精通</span>
+                            </div>
+                            <div class="h-2 bg-navy-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <span class="text-white">数据分析工具</span>
+                                <span class="text-gold-400">熟练</span>
+                            </div>
+                            <div class="h-2 bg-navy-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <span class="text-white">AIGC / AI自动化工具</span>
+                                <span class="text-gold-400">熟练</span>
+                            </div>
+                            <div class="h-2 bg-navy-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-gold-500 to-gold-400 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education -->
+                    <div class="mt-12">
+                        <h3 class="text-xl font-semibold text-white mb-6">教育背景</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-4">
+                                <span class="text-gold-400 font-semibold">2026</span>
+                                <div>
+                                    <p class="text-white">闽江大学 · 金融学</p>
+                                    <p class="text-gray-400 text-sm">本科在读（成人高考）</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <span class="text-gold-400 font-semibold">2013</span>
+                                <div>
+                                    <p class="text-white">福州英华职业学院 · 工程造价</p>
+                                    <p class="text-gray-400 text-sm">大专</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 hero-bg relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="max-w-3xl mx-auto text-center">
+                <span class="text-gold-400 text-sm tracking-widest uppercase reveal">Contact</span>
+                <h2 class="text-3xl lg:text-4xl font-bold text-white mt-4 mb-6 reveal">联系方式</h2>
+                <div class="gold-line mx-auto mb-8 reveal"></div>
+                <p class="text-gray-400 mb-12 reveal">期待与您进一步沟通，共同探讨合作机会</p>
+                
+                <div class="grid md:grid-cols-3 gap-8 reveal">
+                    <!-- Phone -->
+                    <div class="bg-navy-800/50 backdrop-blur-sm border border-gold-400/10 p-8 card-hover">
+                        <div class="w-14 h-14 bg-gold-400/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-7 h-7 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-white font-semibold mb-2">电话</h3>
+                        <a href="tel:13705064697" class="text-gold-400 hover:underline">137-0506-4697</a>
+                    </div>
+                    
+                    <!-- WeChat -->
+                    <div class="bg-navy-800/50 backdrop-blur-sm border border-gold-400/10 p-8 card-hover">
+                        <div class="w-14 h-14 bg-gold-400/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-7 h-7 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-white font-semibold mb-2">微信</h3>
+                        <span class="text-gold-400">aemota</span>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="bg-navy-800/50 backdrop-blur-sm border border-gold-400/10 p-8 card-hover">
+                        <div class="w-14 h-14 bg-gold-400/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-7 h-7 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-white font-semibold mb-2">邮箱</h3>
+                        <a href="mailto:513195443@qq.com" class="text-gold-400 hover:underline">513195443@qq.com</a>
+                    </div>
+                </div>
+                
+                <!-- CTA -->
+                <div class="mt-16 reveal">
+                    <p class="text-gray-400 mb-6">意向岗位：总经理助理 · 期望行业：企业管理咨询 · 人工智能/科技</p>
+                    <a href="mailto:513195443@qq.com" class="inline-block px-10 py-4 bg-gold-400 text-navy-900 font-semibold hover:bg-gold-500 transition-all">
+                        发送邮件
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-navy-900 border-t border-gold-400/10 py-8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="text-center md:text-left mb-4 md:mb-0">
+                    <span class="text-gold-400 font-semibold">黄守煊</span>
+                    <span class="text-gray-500 text-sm ml-2">HSX Portfolio</span>
+                </div>
+                <div class="text-gray-500 text-sm">
+                    © 2026 · 从设计出身，成长为懂业务、懂表达、懂协调、懂落地的职业经理人
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script>
+        // Navigation scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add('bg-navy-900/95', 'backdrop-blur-md', 'shadow-lg');
+            } else {
+                navbar.classList.remove('bg-navy-900/95', 'backdrop-blur-md', 'shadow-lg');
+            }
+        });
+        
+        // Mobile menu
+        const menuBtn = document.getElementById('menuBtn');
+        const closeMenuBtn = document.getElementById('closeMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+        
+        closeMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+        
+        // Close mobile menu when clicking links
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+        
+        // Counter animation
+        function animateCounter(element, target) {
+            let current = 0;
+            const increment = target / 50;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                element.textContent = Math.floor(current);
+            }, 30);
+        }
+        
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    
+                    // Trigger counter animation for stat numbers
+                    const statNumbers = entry.target.querySelectorAll('.stat-number');
+                    statNumbers.forEach(stat => {
+                        const target = parseInt(stat.dataset.target);
+                        if (target && !stat.classList.contains('counted')) {
+                            stat.classList.add('counted');
+                            animateCounter(stat, target);
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all reveal elements
+        document.querySelectorAll('.reveal').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Observe hero section for initial counter animation
+        const heroObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    document.querySelectorAll('#hero .stat-number').forEach(stat => {
+                        const target = parseInt(stat.dataset.target);
+                        if (target) {
+                            animateCounter(stat, target);
+                        }
+                    });
+                    heroObserver.disconnect();
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        heroObserver.observe(document.getElementById('hero'));
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
